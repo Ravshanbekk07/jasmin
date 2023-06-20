@@ -30,7 +30,7 @@ def main():
     disp.add_handler(handler=CommandHandler('start', start))
 
     disp.add_handler(handler=CallbackQueryHandler(
-        buyurtma, pattern="buyurtma booking"))
+        buyurtma, pattern="buyurtma"))
     disp.add_handler(handler=CallbackQueryHandler(
         kontaktlar, pattern="jasmin kontaktlari"))
     disp.add_handler(handler=CallbackQueryHandler(
