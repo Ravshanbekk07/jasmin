@@ -1,5 +1,5 @@
 import os
-from telegram.ext import (
+from telegram.ext import(
     CommandHandler,
     Dispatcher, CallbackQueryHandler
 
@@ -54,5 +54,5 @@ def home():
 @app.route('/set-webhook/')
 def set_hook():
 
-    r = bot.set_webhook('https://stanger.pythonanywhere.com/webhook/')
+    r = bot.set_webhook('https://jasmintaom.pythonanywhere.com/webhook/')
     return f'info:{r}'
